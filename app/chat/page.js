@@ -440,7 +440,7 @@ export default function RudeGPTChat() {
       // Time-based idle response
       const timeResponse = getTimeBasedResponse()
       addMessage("rudegpt", timeResponse)
-      setRageLevel((prev) => Math.min(100, prev + 5))
+      setRageLevel((prev) => Math.min(100, prev + 2))
     }, 15000)
   }
 
